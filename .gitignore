@@ -1,0 +1,12 @@
+# never commit weights, checkpoints, data or submission files
+*.pt
+*.bin
+*.safetensors
+*.npz
+*.npy
+*.zip
+prediction*.json
+data/
+ckpt/
+__pycache__/
+.DS_Store
